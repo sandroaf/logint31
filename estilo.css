@@ -1,0 +1,72 @@
+body {
+    background-color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    width: 400px;
+    margin: 15px auto;
+    padding: 15px 10px;
+    border: 1px black;
+}
+
+main#painel {
+     width: 750px;  
+}
+
+main#painel header{
+    display: block;
+    text-align:right;
+}
+
+main#painel header a, main#painel header a:visited {
+    color: gray;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    height: 28px;
+    margin: 8px;
+}
+
+input {
+    display: inline-block;
+    width: 200px;
+    height: 32px;
+}
+
+button {
+    display: block;
+    width: 150px;
+    height: 32px;
+    margin: 0 auto;
+}
+
+.erro {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    background-color: darkred;
+    color: white;
+}
+
+.alerta {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(173, 142, 5);
+    color: white;
+}
+
